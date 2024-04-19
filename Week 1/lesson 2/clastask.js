@@ -121,58 +121,63 @@
 //    console.log(evenNum(-5,-3));
 
 //task12
-//nafahmidam
 // function sum(n,k) {
-//     let cnt = 0;
-//     for (let  i= 1;  i<=n; i++) {
-//         cnt=cnt+i**k;
-//     }
-//     return cnt;
+//    let cnt = 0;
+//    for(let i=1;i<=n;i++) {
+//       cnt+=i**k;
+//    }
+//    return cnt;
 // }
 // console.log(sum(5,3));
 
 //task13
-//nafahmidam
 // function maxs(n) {
-// let max=-99999;
-// for(let i = n;i>0 ;i=Math.floor(i/10)){
-//     if(i%10>max){
-//         max=i%10;
-//     }
-// }
-// return max;
-// }
-// console.log(maxs(98));
+//       let max = -Infinity
+//       for(let i=n;i>0;i=Math.floor(i/10)) {
+//          if(i%10>max) max = i % 10;
+//       }
+//       return max;
+//    }
+// console.log(maxs(29));
 
 //task14
-   function isSymmetrical(a) {
-
-   }
-   console.log( isSymmetrical(44444444));
+   // function isSymmetrical(a) {
+   //    let cnt ='';
+   //    for(let i=a;i>0;i=Math.floor(a/10)) {
+   //       cnt+= i %10;
+   //    }
+   //    return cnt == a;
+   // }
+   // console.log( isSymmetrical(44444444));
 
 //task15
-//    function addDigits(a) {
-//     let a1=Math.floor(a/10);
-//     let a2=Math.floor(a%10);
-//     let a3= a1+a2;
-//     let a4=Math.floor(a3/10)
-//     let a5=Math.floor(a3%10);
-//     let a6=a4+a5;
-//     return a6;
-//    }
-//    console.log(addDigits(38));
+   // function addDigits(a) {
+   //  let a1=Math.floor(a/10);
+   //  let a2=Math.floor(a%10);
+   //  let a3= a1+a2;
+   //  let a4=Math.floor(a3/10)
+   //  let a5=Math.floor(a3%10);
+   //  let a6=a4+a5;
+   //  return a6;
+   // }
+   // console.log(addDigits(38));
 
 //task16
 // function isPrime(a) {
-//   if (a / a) {
-//     return "true";
-//   } else if (a / 1) {
-//     return "True";
-//   } else {
-//     return "false";
-//   }
+//    let cnt =0;
+//    for(let i=0;i<=a;i++) {
+//       if (a%i==0) {
+//          cnt++
+//       }
+//    }
+//    if(cnt==2) {
+//       return 'true'
+//    }
+//    else  {
+//       return 'false'
+//    }
 // }
-// console.log(isPrime(6));
+// console.log(isPrime(2));
 
 //task17
 //   function factorial(a) {
@@ -196,22 +201,18 @@
 
 //task19
 // function ariphmetic(a) {
-
+//    let cnt = 0
+//    let cnt1 = 0
+//    for(let i=a;i>0;i=Math.floor(i/10)){
+//      cnt+=i%10
+//      cnt1++
+//    }
+//    return cnt/cnt1
 // }
-// console.log( ariphmetic(2456));
+// console.log( ariphmetic(5555));
 
 //task20
 // function minOrMax(n) {
-//   let max = -99999;
-//   let min = 99999;
-//   for (let i = n; i > 0; i = Math.floor(i / 10)) {
-//     if (i % 10 > max) {
-//       max = i % 10;
-//     }
-//     if (i % 10 < min) {
-//         min = i % 10;
-//       }
-//   }
-//   console.log(min,max);
-// }
+
+//}
 // console.log(minOrMax(5732));
