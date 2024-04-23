@@ -1,3 +1,4 @@
+
 //task1
 //    function flip(a) {
 //         if(a==1) {
@@ -15,7 +16,8 @@
 
 //task2
 //    function equation(a,b) {
-        
+//         let x =0;
+//         return x=b/a
 //    }
 //    console.log(equation(4,5));
 
@@ -58,13 +60,31 @@
 
 
 //task7
+    // function triangle(a,b,c) {
+    //         let result=''
+    //         if(a<b && b<c){
+    //             result += (a+2)+ ' ' + (b+2)+' ' + (c+2);
+    //         }
+    //         else{
+    //             result+=(-a) + ' ' + (-b) + ' '+(-c)
+    //         }
+    //         return result
+    //     }
+    // console.log(triangle(3,-2,8));
 
 
-//task8
+// task8
 //   function nextEvenandPrev(a) {
-    
+//     let result=0
+//    if(a%2==0) {
+//         result='next:'+" "+(a+2)+ "   "+ 'prev:'+(a-2);
+//    }
+//    else {
+//     result='next:'+" "+(a+1)+ "   "+ 'prev:'+(a-1);
+//    }
+//    return result;
 //   }
-//   console.log( nextEvenandPrev(3) );
+//   console.log( nextEvenandPrev(5) );
 
 
 //task9
@@ -79,5 +99,67 @@
 //         return a+1
 //     }
 //    }
-//    console.log(subtractNum(0) );\
+//    console.log(subtractNum(-2) );
+
+
+//task10
+//    function leastCommonMultiple(a,b) {
+
+//     }
+//    console.log( leastCommonMultiple(3,8));
+
+
+//task11
+// function isPerfectNumber(num) {
+//     let sum = 0;
+//     for (let i = 1; i <= num / 2; i++) {
+//         if (num % i === 0) {
+//             sum += i;
+//         }
+//     }
+//     return sum === num;
+// }
+// console.log(isPerfectNumber(496));
+
+
+//task12
+    // function hasUniqueDigits(a) {
+      
+    // }
+    // console.log(hasUniqueDigits(2211));
+
+
+
+//task15
+// function reverseOfDigitInFactorial(a){
+//     let result=1
+//     for(let i=1; i<=a; i++){
+//         result=result*i
+//     }
+//     let reverse=''
+//     for(let i=result; i>0; i=Math.floor(i/10)){
+//         if(i%10!=0){
+//             reverse+=i%10
+//         }
+//     }
+//     return reverse
+// }
+// console.log(reverseOfDigitInFactorial(5));
+
+
+
+//task16
+//   function fibonachi(num) {
+//     let f0 = 0;
+//     let f1 = 1;
+//     let fnum = null;
+
+//     for(let i = 2;i<=num;i++) {
+//         fnum = f0 + f1;
+//         f0 = f1;
+//         f1 = fnum;
+//     }
+//     return f1
+//   }
+//   console.log(fibonachi(8));
 

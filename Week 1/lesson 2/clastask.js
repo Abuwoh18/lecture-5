@@ -216,3 +216,45 @@
 
 //}
 // console.log(minOrMax(5732));
+
+
+
+
+// function isPrime(num) {
+//     for(let i=2;i<num;i++) {
+//         if(num%i==0) {
+//             return 'false'
+//         }
+//     }
+
+//     return 'true'
+// }
+// console.log(isPrime(4));
+
+
+
+// function isPalidrom(num) {
+//     let rev = '';
+//     for(let i=num;i>0;i=Math.floor(i/10)) {
+//         rev+=i%10;
+//         if(rev==num) {
+//             return 'true'
+//         }
+//     }
+//     return 'false'
+// }
+// console.log(isPalidrom(1002));
+
+
+// function fibonachi(num) {
+//     let f0=0;
+//     let f1=1;
+//     let fnum=null;
+//     for(let i=2;i<=num;i++) {
+//         fnum=f0+f1;
+//         f0=f1;
+//         f1=fnum;
+//     }
+//     return f1
+// }
+// console.log(fibonachi(5));
