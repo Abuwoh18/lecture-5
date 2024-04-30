@@ -1,34 +1,34 @@
 //task1
 // function modifyLast(a,b) {
-//     let res = a.at(-1).repeat(b-1);
-//     return a+res
+//    let result = a.at(-1).repeat(b-1)
+//    return a+result
 // }
 // console.log(modifyLast('excuse me what?',5));
 
-//task2
+// //task2
 // function firstLast(str) {
-//     let first = str.charAt(0)
-//     let last = str.at(-1)
-//     return first+last
+//    let first = str.at(0)
+//    let second = str.at(-1)
+//    return first + second;
 // }
 // console.log(firstLast("ganesh"))
 
 
 //task3
 // function toInt(elm){
-//     if(typeof(elm)=='string'){
-//         return Number(elm)
-//     }
-//     if(typeof(elm)=='number'){
-//         return `"${elm}"`
-//     }
+//    if(typeof elm == 'string')  {
+//      return Number(elm)
+//    }
+//    else {
+//     return `"${elm}"`
+//    }
 // }
 // console.log(toInt(77));
 
 
-//task4
+// //task4
 // function isPlural(str) {
-//     if(str.at(-1)=='s') {
+//     if(str.at(-1) == 's') {
 //         return 'true'
 //     }
 //     else {
