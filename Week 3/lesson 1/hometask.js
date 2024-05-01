@@ -12,9 +12,15 @@
 
 //task2
 // function maxNum(arr) {
-//     return Math.max(...arr)
+//     let max = -99999
+//     arr.forEach((el) => {
+//         if(el > max) {
+//             max = el
+//         }
+//     })
+//     return max
 // }
-// console.log(maxNum([3, 8, 1, 6, 2]));
+// console.log(maxNum([1, 2, 3, 4,,9, 5]));
 
 
 
@@ -22,10 +28,10 @@
 // function evenCount(arr) {
 //   let cnt = 0;
 //   arr.forEach((el) => {
-//     if(el%2==0) {
+//     if(el%2 == 0) {
 //         cnt++
 //     }
-//   })
+//   });
 //   return cnt
 // }
 // console.log(evenCount([1, 2, 3, 4, 5,6,7,8,9]));
@@ -42,11 +48,11 @@
 
 //task5
 // function arithmetic(arr) {
-//   let cnt = 0;
-//   let res = arr.length;
-//   arr.forEach((el) => {
-//     cnt += el;
-//   });
-//   return cnt / res;
+//  let cnt = 0;
+//  let res = arr.length
+//  arr.forEach((el) => {
+//     cnt+=el
+//  });
+//  return cnt/res
 // }
 // console.log(arithmetic([2,4,6,8]));
